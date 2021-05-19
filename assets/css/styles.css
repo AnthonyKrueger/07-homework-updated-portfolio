@@ -1,0 +1,47 @@
+
+.subTitle {
+    margin-top: 4em;
+}
+.name {
+    margin-top: 4em;
+}
+#topDiv {
+    height: 40em;
+}
+.col .row {
+    margin-right: 0;
+}
+.profileTitle {
+    font-weight: bold;
+    border-right: solid 2px lightgray;
+    color: rgb(110, 110, 110);
+    margin-left: auto;
+    font-size: 25px;
+    padding-right: 1em;
+}
+.profileInfo {
+    margin-right: auto;
+    padding-left: 1em;
+    font-size: 35px;
+}
+.profileContent {
+    height: 8em;
+}
+h1 {
+    margin: 0;
+}
+.headerText {
+    margin: auto;
+}
+.sectionHeader {
+    height: 20em;
+}
+.row {
+    margin-bottom: 0;
+}
+@media screen and (max-width: 992px) {
+
+}
+@media screen and (min-width: 992px) {
+
+}
