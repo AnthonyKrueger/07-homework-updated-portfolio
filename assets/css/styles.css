@@ -8,6 +8,27 @@
 #topDiv {
     height: 40em;
 }
+.row .mainContent {
+    padding: 0;
+
+}
+.projectDiv {
+    padding-top: 40px;
+}
+.projectLink {
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.projectTitle {
+    margin-top: 40px;
+    margin-bottom: -50px;
+}
+.projectInfo {
+    margin: 0 10em;
+}
+.projectLinks {
+    padding-top: 20px;
+}
 .col .row {
     margin-right: 0;
 }
@@ -27,6 +48,19 @@
 .profileContent {
     height: 8em;
 }
+.carousel {
+    height: 400px;
+}
+.carousel .carousel-item {
+    width:600px !important;
+}
+.fixed-action-btn {
+    left: 10px;
+    top: 10px;
+    padding-top: 0;
+    right: auto;
+    bottom: auto;
+    }
 h1 {
     margin: 0;
 }
