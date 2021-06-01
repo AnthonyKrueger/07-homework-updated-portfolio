@@ -1,12 +1,11 @@
 html {
     scroll-behavior: smooth;
     overflow-x: hidden;
-    -ms-overflow-style: none;
-    scrollbar-width: none; 
-    
+    overflow-y: auto;
   }
   html::-webkit-scrollbar {
-    display: none;
+    width: 0px;
+    background: transparent;
   }
 .subTitle {
     margin-top: 4em;
