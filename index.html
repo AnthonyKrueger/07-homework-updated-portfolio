@@ -1,107 +1,203 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anthony Krueger</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
-<body class = "grey lighten-3">
+
+<body class="grey lighten-3">
     <ul id="slide-out" class="sidenav">
-        <li><div class="user-view">
-            <div class="background red lighten-2">
-                <!-- <img src="assets/images/forest.jpg" class="responsive-img"> -->
+        <li>
+            <div class="user-view">
+                <div class="background red lighten-2">
+                    <!-- <img src="assets/images/forest.jpg" class="responsive-img"> -->
+                </div>
+                <a href="#name"><span class="white-text name">Anthony Krueger</span></a>
+                <a href="mailto: anthonykrueger0@gmail.com"><span class="white-text email">anthonykrueger0@gmail.com</span></a>
             </div>
-            <a href="#user"><img class="circle" src="images/yuna.jpg"></a>
-            <a href="#name"><span class="white-text name">Anthony Krueger</span></a>
-            <a href="#email"><span class="white-text email">anthonykrueger0@gmail.com</span></a>
-        </div></li>
+        </li>
         <li><a href="#aboutme"><i class="material-icons">account_box</i>About Me</a></li>
         <li><a href="#projects"><i class="material-icons">apps</i>Projects</a></li>
+        <li><a href="#links"><i class="material-icons">link</i>Links</a></li>
+        <li><a href="#contactMe"><i class="material-icons">chat_bubble_outline</i>Contact Me</a></li>
     </ul>
     <div class="fixed-action-btn">
-        <a href="#" data-target="slide-out" class="btn-floating sidenav-trigger white-text"><i class="material-icons">menu</i></a>
+        <a href="#" data-target="slide-out" class="btn-floating sidenav-trigger white-text"><i
+                class="material-icons">menu</i></a>
     </div>
-      <div class="row">
-          <div class="mainContent col s12">
-              <div class="row sectionHeader grey lighten-2 black-text" id="topDiv">
-                  <div class="col s12 name"><h2 class="center headerText">Anthony Krueger</h2></div>
-                  <div class="col s12 subTitle"><h4 class="center headerText">Web Developer</h4></div>
-              </div>
-              <div class="row sectionHeader valign-wrapper deep-purple lighten-1 white-text" id="aboutme">
-                      <h2 class = "center headerText">About Me</h2>
-              </div>
-              <div class="row sectionContent deep-purple lighten-3 white-text">
-                  <div class="profileContent valign-wrapper col s12">
-                      <span class="profileTitle">Name </span>
-                      <span class="profileInfo">Anthony Krueger</span>
-                  </div>
-              <div class="row sectionContent deep-purple lighten-3 white-text">
-                  <div class="profileContent valign-wrapper center col s12">
-                      <span class="profileTitle">Birthday </span>
-                      <span class="profileInfo">September 1, 1999</span>
-                  </div>
-              <div class="row sectionContent deep-purple lighten-3 white-text">
-                  <div class="profileContent valign-wrapper center col s12">
-                      <span class="profileTitle">Location </span>
-                      <span class="profileInfo">Chicago, IL</span>
-                  </div>
-
-              <div class="row sectionHeader valign-wrapper red lighten-2 black-text" id="projects">
-                    <h2 class = "center headerText">Projects</h2>
+    <div class="row">
+        <div class="mainContent col s12">
+            <div class="row sectionHeader grey lighten-2 black-text" id="topDiv">
+                <div class="col s12 name">
+                    <h2 class="center headerText">Anthony Krueger</h2>
+                </div>
+                <div class="col s12 subTitle">
+                    <h4 class="center headerText">Web Developer</h4>
+                </div>
             </div>
-            <div class="row sectionContent projectDiv red lighten-3 black-text">
-                <div class="center col s12">
-                    <h5 class="projectTitle white-text"><strong>TCG Price Tracker</strong></h3>
-                    <div class="carousel center">
-                        <a class="carousel-item" href="#one!"><img src="assets/images/tcgTracker1.PNG"></a>
-                        <a class="carousel-item" href="#two!"><img src="assets/images/tcgTracker2.PNG"></a>
-                        <a class="carousel-item" href="#three!"><img src="assets/images/tcgTracker3.PNG"></a>
-                      </div>
-                      <div class="projectInfo left-align">
-                          <p><strong class="white-text">Description:</strong> An application to search a Pokemon card database by specific search criteria. Cards can be saved to a list of favorites to keep track of cards you like or have. Card arts can be clicked on to display a page with more information on the card including the artist and ID. Prices can be converted into different forms of crypto which are kept updated using an API.</p>
-                          <p><strong class="white-text">Role:</strong> Backend Lead / Frontend Support</p>
-                          <p><strong class="white-text">Technologies Used:</strong> Javascript, HTML, CSS, jQuery, Materialize, API's, Font-Awesome</p>
-                      </div>
-                      <div class="projectLinks">
-                          <a class="projectLink" href="https://github.com/Project01-TCG-Price-Tracker/TCG_Price_Tracker" target="_blank"><btn class="btn">GitHub Repo</btn></a>
-                          <a class="projectLink" href="https://project01-tcg-price-tracker.github.io/TCG_Price_Tracker/" target="_blank"><btn class="btn">Deployed Application</btn></a>
-                      </div>
+            <div class="row sectionHeader valign-wrapper blue darken-4 white-text" id="aboutme">
+                <h2 class="center headerText">About Me</h2>
+            </div>
+            <div class="row sectionContent center blue darken-2 white-text">
+                <img class="circle profilePic" src="assets/images/ProfilePhoto.JPG">
+            </div>
+            <div class="row sectionContent blue darken-2 white-text">
+                <div class="profileContent valign-wrapper col s12">
+                    <span class="profileTitle">Name </span>
+                    <span class="profileInfo">Anthony Krueger</span>
+                </div>
+                <div class="row sectionContent blue darken-2 white-text">
+                    <div class="profileContent valign-wrapper center col s12">
+                        <span class="profileTitle">Birthday </span>
+                        <span class="profileInfo">September 1, 1999</span>
+                    </div>
+                    <div class="row sectionContent blue darken-2 white-text">
+                        <div class="profileContent valign-wrapper center col s12">
+                            <span class="profileTitle">Location </span>
+                            <span class="profileInfo">Chicago, IL</span>
+                        </div>
+                        </div>
+                        </div>
+
+                        <div class="row sectionHeader valign-wrapper red lighten-2 black-text" id="projects">
+                            <h2 class="center headerText">Projects</h2>
+                        </div>
+                    </div>
+                    <div class="row sectionContent projectDiv red lighten-3 black-text">
+                        <div class="center col s12">
+                            <h5 class="projectTitle white-text"><strong>TCG Price Tracker</strong></h3>
+                                <div class="row">
+                                    <div class="col s10 center">
+                                        <div class="carousel carousel-slider center">
+                                            <a class="carousel-item" href="#one!"><img src="assets/images/tcgTracker1.PNG"></a>
+                                            <a class="carousel-item" href="#two!"><img src="assets/images/tcgTracker2.PNG"></a>
+                                            <a class="carousel-item" href="#three!"><img src="assets/images/tcgTracker3.PNG"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="projectInfo left-align">
+                                    <p><strong class="white-text">Description:</strong> An application to search a
+                                        Pokemon card database by specific search criteria. Cards can be saved to a list
+                                        of favorites to keep track of cards you like or have. Card arts can be clicked
+                                        on to display a page with more information on the card including the artist and
+                                        ID. Prices can be converted into different forms of crypto which are kept
+                                        updated using an API.</p>
+                                    <p><strong class="white-text">Role:</strong> Backend Lead / Frontend Support</p>
+                                    <p><strong class="white-text">Technologies Used:</strong> Javascript, HTML, CSS,
+                                        jQuery, Materialize, API's, Font-Awesome</p>
+                                </div>
+                                <div class="projectLinks">
+                                    <a class="projectLink"
+                                        href="https://github.com/Project01-TCG-Price-Tracker/TCG_Price_Tracker"
+                                        target="_blank">
+                                        <btn class="btn">GitHub Repo</btn>
+                                    </a>
+                                    <a class="projectLink"
+                                        href="https://project01-tcg-price-tracker.github.io/TCG_Price_Tracker/"
+                                        target="_blank">
+                                        <btn class="btn">Deployed Application</btn>
+                                    </a>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="row sectionContent projectDiv red lighten-3 black-text">
+                        <div class="center col s12">
+                            <h5 class="projectTitle white-text"><strong>Weather Dashboard</strong></h3>
+                                <div class="row center">
+                                    <div class="col s10 center">
+                                        <div class="carousel carousel-slider center">
+                                            <a class="carousel-item" href="#one!"><img src="assets/images/wb1.PNG"></a>
+                                            <a class="carousel-item" href="#two!"><img src="assets/images/wb2.PNG"></a>
+                                            <a class="carousel-item" href="#three!"><img src="assets/images/wb3.PNG"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="projectInfo left-align">
+                                    <p><strong class="white-text">Description:</strong> A weather application that is
+                                        used to look up current weather data as well as a five day forecast of any city.
+                                        Recent city searches are saved to the "Recent Seacrhes" bar on the side and can
+                                        be clicked to view the info again.</p>
+                                    <p><strong class="white-text">Role:</strong> Sole Developer</p>
+                                    <p><strong class="white-text">Technologies Used:</strong> Javascript, HTML, CSS,
+                                        jQuery, Materialize, OpenWeatherAPI</p>
+                                </div>
+                                <div class="projectLinks">
+                                    <a class="projectLink"
+                                        href="https://github.com/AnthonyKrueger/06-homework-weather-api"
+                                        target="_blank">
+                                        <btn class="btn">GitHub Repo</btn>
+                                    </a>
+                                    <a class="projectLink"
+                                        href="https://anthonykrueger.github.io/06-homework-weather-api/"
+                                        target="_blank">
+                                        <btn class="btn">Deployed Application</btn>
+                                    </a>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="row sectionContent projectDiv red lighten-3 black-text">
+                        <div class="center col s12">
+                            <h5 class="projectTitle white-text"><strong>Coding Quiz</strong></h3>
+                                <div class="row">
+                                    <div class="col s10 center">
+                                        <div class="carousel carousel-slider center">
+                                            <a class="carousel-item" href="#one!"><img src="assets/images/quiz1.PNG"></a>
+                                            <a class="carousel-item" href="#two!"><img src="assets/images/quiz2.PNG"></a>
+                                            <a class="carousel-item" href="#three!"><img src="assets/images/quiz3.PNG"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="projectInfo left-align">
+                                    <p><strong class="white-text">Description:</strong> An application that quizzes the
+                                        user with basic Javascript/CSS questions. Users have 60 seconds to answer 7
+                                        questions that appear in random order. The answers are also populated in a
+                                        random order to prevent memorization of the quiz mechanics. High scores are
+                                        saved to local stoarge to view later.</p>
+                                    <p><strong class="white-text">Role:</strong> Sole Developer</p>
+                                    <p><strong class="white-text">Technologies Used:</strong> Javascript, HTML, CSS</p>
+                                </div>
+                                <div class="projectLinks">
+                                    <a class="projectLink" href="https://github.com/AnthonyKrueger/04-homework-codeQuiz"
+                                        target="_blank">
+                                        <btn class="btn">GitHub Repo</btn>
+                                    </a>
+                                    <a class="projectLink" href="https://anthonykrueger.github.io/04-homework-codeQuiz/"
+                                        target="_blank">
+                                        <btn class="btn">Deployed Application</btn>
+                                    </a>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="row sectionHeader valign-wrapper green darken-4 white-text" id="links">
+                        <h2 class="center headerText">Links</h2>
+                    </div>
+                    <div class="row sectionContent center green darken-2 white-text">
+                        <h4 class="linkContent"><a href="https://github.com/AnthonyKrueger" target="_blank"><i class="fab fa-github"></i> Github</a></h4>
+                        <h4 class="linkContent"><a href="https://www.linkedin.com/in/anthony-krueger-1545a5208/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></h4>
+                        <h4 class="linkContent"><a href="./assets/resume.pdf" download="AnthonyKrueger_Resume"><i class="fas fa-file"></i> Download Resume</a></h4>
+                    </div>
+                    <div class="row sectionHeader valign-wrapper grey lighten-2 black-text" id="contactMe">
+                        <h2 class="center headerText">Contact Me</h2>
+                    </div>
+                    <div class="row sectionContent center grey lighten-4 black-text">
+                        <h5 class="contactInfo"><i class="fas fa-envelope"></i> E-Mail: <a href = "mailto: anthonykrueger0@gmail.com">anthonykrueger0@gmail.com</a></h5>
+                        <h5 class="contactInfo"><i class="fas fa-phone"></i> Phone: <a href = "tel:815-353-5532">815-353-5532</a></h5>
+                    </div>
                 </div>
 
-              </div>
-            <div class="row sectionContent projectDiv red lighten-3 black-text">
-                <div class="center col s12">
-                    <h5 class="projectTitle white-text"><strong>Weather Dashboard</strong></h3>
-                    <div class="carousel center">
-                        <a class="carousel-item" href="#one!"><img src="assets/images/wb1.PNG"></a>
-                        <a class="carousel-item" href="#two!"><img src="assets/images/wb2.PNG"></a>
-                        <a class="carousel-item" href="#three!"><img src="assets/images/wb1.PNG"></a>
-                      </div>
-                      <div class="projectInfo left-align">
-                          <p><strong class="white-text">Description:</strong> A price tracker for pokemon cards that allows favoriting of cards. Can be used to search any Pokemon card using an API and many different search criteria. Can also convert prices to many different forms of crypto.</p>
-                          <p><strong class="white-text">Role:</strong> Backend Lead / Frontend Support</p>
-                          <p><strong class="white-text">Technologies Used:</strong> Javascript, HTML, CSS, jQuery, Materialize, API's, Font-Awesome</p>
-                      </div>
-                </div>
-
-              </div>
-
-          </div>
-      </div>
-
-
-
-
-
-    <script
-  src="https://code.jquery.com/jquery-3.6.0.min.js"
-  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-  crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-  <script src="assets/js/script.js"></script>
+                        <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+                            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+                            crossorigin="anonymous"></script>
+                        <script
+                            src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+                        <script src="assets/js/script.js"></script>
 </body>
+
 </html>
